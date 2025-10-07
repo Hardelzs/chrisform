@@ -10,8 +10,11 @@ export default function ContactForm() {
 
 
   return (
-    <div className="">
-      <div className="">
+    <div className="bg-[#f8f8f8] min-h-screen p-4">
+      <div className='1'>
+        <h1 className="">Back</h1>
+      </div>
+      <div className="my-4 flex justify-center items-center rounded-2xl  bg-amber-300 w-20 h-20 mx-auto"> 
         <img
           src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
           alt="Form Icon"
