@@ -11,8 +11,8 @@ export default function ContactForm() {
 
   return (
     <div className="bg-[#bbbbbb] min-h-screen">
-      <div className='bg-white p-4'>
-        <h1 className="">&lt; Back </h1>
+      <div className='bg-white p-4 '>
+        <h1 className="cursor-pointer">&lt; Back </h1>
       </div>
       <div className="my-4 flex justify-center items-center rounded-2xl  bg-amber-300 w-20 h-20 mx-auto"> 
         <img
