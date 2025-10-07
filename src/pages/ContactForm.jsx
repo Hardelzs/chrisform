@@ -10,9 +10,9 @@ export default function ContactForm() {
 
 
   return (
-    <div className="bg-[#f8f8f8] min-h-screen p-4">
-      <div className='1'>
-        <h1 className="">Back</h1>
+    <div className="bg-[#bbbbbb] min-h-screen">
+      <div className='bg-white p-4'>
+        <h1 className="">&lt; Back </h1>
       </div>
       <div className="my-4 flex justify-center items-center rounded-2xl  bg-amber-300 w-20 h-20 mx-auto"> 
         <img
@@ -21,7 +21,7 @@ export default function ContactForm() {
           className="w-16 h-16"
         />
       </div>
-      <div className='min-h-screen bg-[#f8f8f8] flex items-center justify-center px-4'>
+      <div className='min-h-screen bg-[#bbbbbb]] flex items-center justify-center px-4'>
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-[700px] text-black">
           {/* Icon or Image */}
 
