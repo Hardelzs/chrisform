@@ -57,7 +57,7 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit} className="space-y-6 ">
         {/* Name */}
         <div className="">
-          <label className="font-medium text-gray-500">1. Your Name *</label>
+          <label className="font-medium text-gray-500">1. Your Name <span className="text-red-600">*</span></label>
           <div className="flex gap-4 mt-2">
             <div className="w-full space-y-2">
               <input
@@ -91,7 +91,7 @@ export default function ContactForm() {
         {/* State */}
         <div className="mt-10">
           <div className="grid grid-cols-1 space-y-3.5">
-            <label className="font-medium text-gray-500">2. What is your State? *</label>
+            <label className="font-medium text-gray-500">2. What is your State? <span className="text-red-600">*</span></label>
             <select
               name="state"
               value={formData.state}
@@ -104,7 +104,7 @@ export default function ContactForm() {
               <option value="Lagos">Lagos</option>
               <option value="Kano">Kano</option>
             </select>
-            <label htmlFor="" className="text-[14px] text-gray-400">State and LGA from where you are collecting data.</label>
+            <label htmlFor="" className="text-[14px] text-gray-500">State and LGA from where you are collecting data.</label>
           </div>
 
         </div>
@@ -125,7 +125,7 @@ export default function ContactForm() {
               <option value="Lagos">Lagos</option>
               <option value="Kano">Kano</option>
             </select>
-            <label htmlFor="" className="text-[14px] text-gray-400">State and LGA from where you are collecting data.</label>
+            <label htmlFor="" className="text-[14px] text-gray-500">State and LGA from where you are collecting data.</label>
           </div>
 
         </div>
@@ -144,7 +144,7 @@ export default function ContactForm() {
               onChange={handleChange}
               className="border rounded-sm p-2 w-87"
             />
-            <label htmlFor="" className="text-[14px] text-gray-400">Town or village from where you are collecting data.</label>
+            <label htmlFor="" className="text-[14px] text-gray-500">Town or village from where you are collecting data.</label>
           </div>
 
         </div>
@@ -161,10 +161,10 @@ export default function ContactForm() {
             onChange={handleChange}
             className="border rounded-sm p-2 w-87"
           />
-          <label htmlFor="" className="text-[14px] ">Date</label>
+          <label htmlFor="" className="text-[12px] text-gray-500 ">Date</label>
         </div>
 
-        <div className="grid gap-15">
+        <div className="grid gap-15 mt-10">
 
           {/* Collapsible sections */}
           {[
